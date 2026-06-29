@@ -1,0 +1,20 @@
+text="bob"
+f=True
+for ch in text:
+    if ch==" ":
+       text= text.replace(" ","")
+for i in range(len(text)):
+    if text[i]==text[::-1]:
+        f=True
+    else:
+        f=False
+if f==True:
+    print("palindrome")
+else:
+    print("not palindrome")
+
+
+
+
+    
+    
